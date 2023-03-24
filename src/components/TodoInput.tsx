@@ -11,7 +11,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
 
   function handleAddNewTask() {
     //TODO - Call addTask if task not empty and clean input value
-    console.log("Task adicionada:",task)
+    //console.log("Task adicionada:",task)
     if (task) {
       addTask(task);
       setTask('');
